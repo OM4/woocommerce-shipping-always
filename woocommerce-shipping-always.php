@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce - Always Ask for Shipping Address
 Plugin URI: https://github.com/OM4/woocommerce-shipping-always
 Description: During checkout, always ask the customer for a shipping address. Useful if you have virtual products that still need a shipping address.
-Version: 0.1
+Version: 0.2
 Author: OM4
 Author URI: http://om4.com.au/
 Text Domain: woocommerce-shipping-always
