@@ -60,6 +60,15 @@ if ( ! class_exists( 'WC_Shipping_Always' ) ) {
 		 * Constructor
 		 */
 		private function __construct() {
+			/*
+			 * The 'woocommerce_cart_needs_shipping_address' filter forces the checkout process to ask for a shipping address,
+			 * regardless of what is the customer's cart.
+			 *
+			 * Using 'woocommerce_cart_needs_shipping' would mean the customer has to select a valid shipping quote/method,
+			 * whereas 'woocommerce_cart_needs_shipping_address' simply forces a shipping address but doesn't ask for a shipping method.
+			 *
+			 * Other filters such as 'woocommerce_product_needs_shipping' aren't required.
+			 */
 			add_filter( 'woocommerce_cart_needs_shipping_address', '__return_true' );
 		}
 
