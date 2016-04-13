@@ -2,8 +2,8 @@
 Contributors: jamescollins
 Tags: woocommerce, shipping, checkout, virtual, address
 Requires at least: 3.9
-Tested up to: 3.9.2
-Stable tag: 0.2
+Tested up to: 4.5
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,9 @@ If you have any other suggestions for other information that could be included, 
 1. Install this plugin via WordPress Dashboard, Plugins, Add New, Upload.
 
 == Changelog ==
+
+= 0.3 =
+* Confirm WooCommerce 2.5 and WordPress 4.5 compatibility.
 
 = 0.2 =
 * Readme updates.
