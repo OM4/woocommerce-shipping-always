@@ -2,10 +2,12 @@
 Contributors: jamescollins
 Tags: woocommerce, shipping, checkout, virtual, address
 Requires at least: 3.9
-Tested up to: 4.5
+Tested up to: 4.5.2
 Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+WC requires at least: 2.4.0
+WC tested up to: 2.6.0
 
 During checkout, always ask the customer for a shipping address. Useful if you have virtual products that still need a shipping address.
 
